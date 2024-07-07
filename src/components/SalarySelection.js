@@ -9,7 +9,7 @@ const SalarySelection = () => {
   };
 
   return (
-   <div style={{backgroundColor: '#f5f5f7'}}>
+   <div className='container' style={{backgroundColor: '#f5f5f7'}}>
      <div className="max-w-md mx-auto mt-10">
        <h2 className="text-2xl mb-6" style={{textAlign: 'center', fontWeight: 'bold', padding: '0 20px'}}>What is your monthly digital marketing budget?</h2>
 

@@ -34,7 +34,8 @@ const StepperForm = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto mt-8">
+    <div className="container">
+            <div className="max-w-md mx-auto mt-8">
             <div style={{ textAlign: 'center' }}>
                 <h2 className="text-2xl mb-2" style={{ fontWeight: 'bold' }}>Details</h2>
                 <p className="text-gray-700" style={{ fontSize: '12px' }}>We’re thrilled at the opportunity to help you grow your business online.</p>
@@ -103,6 +104,7 @@ const StepperForm = () => {
                 </div>
             </form>
         </div>
+    </div>
     );
 };
 
